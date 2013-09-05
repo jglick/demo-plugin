@@ -24,7 +24,7 @@ public class FunctionalTest {
         wc.login("alice");
         boolean found = false;
         for (HtmlElement e : wc.getPage(project).getElementsByTagName("span")) {
-            if (e.getAttribute("style").equals("font-weight: bold; color: red")) {
+            if (e.getAttribute("style").equals("font-weight: bold; color: red") && e.getTextContent().equals("is")) {
                 found = true;
                 break;
             }
