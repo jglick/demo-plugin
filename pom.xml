@@ -3,7 +3,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>1.509.2</version>
+        <version>1.532.1</version>
     </parent>
     <groupId>test</groupId>
     <artifactId>demo</artifactId>
@@ -11,9 +11,6 @@
     <packaging>hpi</packaging>
     <name>Demonstration Plugin</name>
     <url>https://github.com/jglick/demo-plugin</url>
-    <properties>
-        <maven-hpi-plugin.version>1.96</maven-hpi-plugin.version> <!-- TODO can remove when based on 1.509.3 -->
-    </properties>
     <repositories>
         <repository>
             <id>repo.jenkins-ci.org</id>
